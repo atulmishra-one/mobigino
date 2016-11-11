@@ -1,0 +1,55 @@
+
+@media only screen and (min-width:1023px) {.navCon{ display:block !important;}}
+@media only screen and (max-width:1100px){
+.tabCon ul li{ width:270px;}
+.serBox{ width:280px; vertical-align:top;}
+.ourBox{ width:190px;}
+.tabCon ul li:nth-child(4n){ margin-right:30px;}	
+}
+@media only screen and (max-width:1023px){
+.toggle{ display:block; width:30px; height:22px; float:right; margin:24px 0 24px 20px;}
+.toggle i{ height:2px; width:30px; border-radius:3px; background:#EF4224 ; margin:3px 0; display:block;}
+.toggle i.one{ width:24px;}
+.toggle i.two{ width:16px;}
+.toggle i.three{ width:22px;}
+.toggle i.four{ width:28px;}
+header{ height:70px;}
+.logo{ padding:19px 0;}
+.follows{ margin-top:25px;}
+.navCon{ float:none; width:100%; background:url(../images/mobbackmenu.jpg); position:fixed;  top:0; bottom:0; left:0; right:0; padding:20px 20px; text-align:center;z-index:3000;  overflow:auto; display:none; margin:0;}
+.nav{ position:absolute; left:0; right:0; width:100%; top:50px;}
+.logo2{ display:block; margin-bottom:20px;}
+.nav > li{ display:block; text-align:center; float:none;}
+.nav > li > a{ padding:20px 15px; border-bottom:1px solid #363636; font-size:16px; color:#fff; text-align:left; height:auto;}
+.subMenu > a{ background:url(../images/down.png) no-repeat 96% center;}
+.nav > li.active > a, .nav > li:hover > a{ background:none; color:#fff ;}
+.nav > li.subMenu > a::after{ content:""; display:none;}
+.nav > li.subMenu:hover > a{background:url(../images/down.png) no-repeat 96% center; color:#fff ;}
+.nav > li > a::after{ content:"";}
+.close{ display:block; right:10px; top:7px; color:#fff; font-size:12px;  position:fixed; z-index:2000;}
+.aboutmenu , .servicesmenu , .subMenuCon.servicesmenu.portfolioMenu{ width:100%; left:0; right:0; position:relative; text-align:left; text-transform:uppercase; background:none;}
+.subMenuCon a{ border:0;}
+.menuHd{ color:#fa5757 ;}
+.menuBox{ margin-right:0px;}
+.nav > li.subMenu.open:hover > a{background:url(../images/up.png) no-repeat 96% center; color:#fff ;}
+.subMenu.open > a{background:url(../images/up.png) no-repeat 96% center;}
+.banrTxt a{ margin:20px auto;}
+.workCon{ text-align:center; height:auto;}
+.workBox{ width:44%; float:none; display:inline-block; margin:25px 2%;}
+.wantAny{ font-size:20px; margin-top:17px;}
+.phone{ font-size:22px;}
+.fbox{ padding-right:4%;}
+.aboutHd{ font-size:30px;}
+.txt.fr{ font-size:18px; padding-left:10px; padding-top:70px;}
+.leftAbout.fr{ padding-left:20px;}
+.portfolioon{ text-align:center;}
+.portfolioon a{ float:none; width:200px; margin:20px; display:inline-block;}
+.tab{ text-align:center;}
+.tabCon ul li{ float:none; display:inline-block; margin:0 20px 20px 20px;}
+.tabCon ul li:nth-child(3n){ margin-right:20px;}
+.tabCon ul li:nth-child(4n){ margin-right:20px;}
+.ourProcessCon{ margin-top:20px;}
+.ourBox{ margin-top:20px;}
+.midCon{ margin-top:70px;}
+}
+
